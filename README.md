@@ -1,32 +1,78 @@
-# WOOQ — Canlı Ekran Altyazı & Anlık Çeviri
+<div align="center">
 
-Oyunlarda, videolarda veya herhangi bir pencerede ekrandaki yazıları anlık olarak okuyan ve seçtiğin dile çeviren modern, hafif masaüstü uygulaması.
+# ⚡ WOOQ
 
----
+**Canlı Ekran Altyazı Okuma & Anlık Çeviri Aracı**  
+*Real-Time Screen Subtitle OCR & Instant Translation Tool*
 
-## İndir ve Kur
+<br>
 
-Aşağıdaki butona tıklayarak kurulum dosyasını (`WOOQ_Setup.exe`) indirebilirsin:
+[![Download WOOQ](https://img.shields.io/badge/⬇_İNDİR_/_DOWNLOAD-WOOQ__Setup.exe-00C853?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/Wastiyn/WOOQ/releases/latest/download/WOOQ_Setup.exe)
 
-[![WOOQ İndir](https://img.shields.io/badge/İNDİR-WOOQ__Setup.exe-00C853?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/Wastiyn/WOOQ/releases/latest/download/WOOQ_Setup.exe)
+<br>
 
-> **Not:** Kurulum sonrası uygulama yeni sürümleri otomatik olarak kontrol eder ve kendini günceller.
+![Platform](https://img.shields.io/badge/Platform-Windows_10_%2F_11_(64--bit)-1E1E2E?style=flat-square&logo=windows&logoColor=4195E4)
+![Release](https://img.shields.io/github/v/release/Wastiyn/WOOQ?style=flat-square&color=4195E4&label=Sürüm%20%2F%20Version)
+![Downloads](https://img.shields.io/github/downloads/Wastiyn/WOOQ/total?style=flat-square&color=00C853&label=İndirme%20%2F%20Downloads)
 
----
+<br>
 
-## Özellikler
+**[🇹🇷 Türkçe](#-türkçe)** &nbsp;•&nbsp; **[🇬🇧 English](#-english)**
 
-* **Canlı Altyazı Önizleme:** Ekrandan seçtiğin alanı anlık olarak okur ve çevirir.
-* **Hızlı OCR Motoru:** Düşük gecikmeli yerel metin tanıma desteği.
-* **Kısayol Kontrolü:**
-  * `Alt + W` — Menüyü aç/kapat
-  * `Alt + X` — Duraklat / Devam et
-  * `Alt + C` — Çeviriyi kopyala
-* **Modern Koyu Arayüz:** Göz yormayan tasarım ve özelleştirilebilir görünüm.
-* **Otomatik Güncelleme:** Yeni sürümler tek tıkla otomatik kurulur.
+</div>
 
 ---
 
-## Sistem Gereksinimleri
+## 🇹🇷 Türkçe
 
-* Windows 10 veya Windows 11 (64-bit)
+**WOOQ**, oyunlarda, videolarda veya herhangi bir uygulama penceresinde ekrandaki yazıları anlık olarak algılayıp seçtiğin dile çeviren hafif, hızlı ve modern bir masaüstü uygulamasıdır.
+
+### ✨ Öne Çıkan Özellikler
+* **Canlı Ekran Okuma (OCR):** Ekrandan seçtiğin bölgeyi düşük gecikmeyle anlık olarak tarar ve çevirir.
+* **Modern Koyu Arayüz:** Göz yormayan, sade ve şık pencere tasarımı.
+* **Otomatik Güncelleme:** Yeni sürümler yayınlandığında uygulama kendini arka planda otomatik olarak günceller.
+* **Hızlı & Güvenli Kurulum:** Tek tıkla kurulur, sistem kaynaklarını yormaz.
+
+### ⌨️ Kısayollar
+
+| Kısayol | İşlev |
+| :---: | :--- |
+| `Alt + W` | Ana menüyü aç / gizle |
+| `Alt + X` | Çeviriyi duraklat / devam ettir |
+| `Alt + C` | Son çeviriyi panoya kopyala |
+
+### 🚀 Kurulum
+1. Yukarıdaki yeşil **İNDİR** butonuna basarak `WOOQ_Setup.exe` dosyasını indir.
+2. Kurulum sihirbazını çalıştırıp birkaç saniyede kurulumu tamamla.
+3. Masaüstündeki **WOOQ** kısayolundan uygulamayı başlat.
+
+---
+
+## 🇬🇧 English
+
+**WOOQ** is a lightweight, fast, and modern desktop application that captures on-screen text in real time from games, videos, or any window and translates it instantly into your preferred language.
+
+### ✨ Key Features
+* **Real-Time Screen OCR:** Instantly detects and translates text from any selected area on your screen with low latency.
+* **Modern Dark UI:** Clean, distraction-free interface designed for everyday use.
+* **Auto-Updater:** Automatically checks for and installs the latest updates without requiring manual re-installation.
+* **Lightweight & Native:** Fast startup and minimal system resource usage.
+
+### ⌨️ Hotkeys
+
+| Shortcut | Action |
+| :---: | :--- |
+| `Alt + W` | Toggle main menu |
+| `Alt + X` | Pause / Resume translation |
+| `Alt + C` | Copy latest translation to clipboard |
+
+### 🚀 Installation
+1. Click the green **DOWNLOAD** button above to get `WOOQ_Setup.exe`.
+2. Run the installer and complete the setup in seconds.
+3. Launch **WOOQ** from your desktop shortcut.
+
+---
+
+<div align="center">
+  <sub>Developed by <b>Wastiyn</b> • Windows 10 / 11 (64-bit)</sub>
+</div>
