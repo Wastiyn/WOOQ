@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WOOQ — Real-Time Screen Subtitle OCR & Translator</title>
+  <meta name="description" content="WOOQ — Oyunlarda, videolarda ve tüm Windows pencerelerinde anlık ekran altyazısı okuma (OCR) ve çoklu dil çeviri aracı." />
+  <meta name="keywords" content="WOOQ, ekran çeviri, altyazı çeviri, oyun altyazı, screen translator, OCR translator, Windows" />
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+      background: #0b0e12;
+      color: #f8fafc;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-image: radial-gradient(circle at 50% 0%, rgba(16, 185, 129, 0.16), transparent 55%);
+    }
+    .container {
+      width: 100%;
+      max-width: 920px;
+      padding: 64px 24px 48px;
+      text-align: center;
+    }
+    .badge {
+      display: inline-block;
+      padding: 6px 14px;
+      border-radius: 999px;
+      background: rgba(16, 185, 129, 0.12);
+      border: 1px solid rgba(52, 211, 153, 0.35);
+      color: #34d399;
+      font-size: 13px;
+      font-weight: 600;
+      margin-bottom: 20px;
+    }
+    h1 {
+      font-size: 52px;
+      font-weight: 800;
+      letter-spacing: 4px;
+      margin-bottom: 14px;
+      background: linear-gradient(135deg, #ffffff 30%, #34d399 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .subtitle {
+      font-size: 18px;
+      color: #94a3b8;
+      max-width: 640px;
+      margin: 0 auto 36px;
+      line-height: 1.6;
+    }
+    .actions {
+      display: flex;
+      gap: 14px;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-bottom: 56px;
+    }
+    .btn-primary {
+      background: #10b981;
+      color: #04120c;
+      text-decoration: none;
+      padding: 15px 30px;
+      border-radius: 12px;
+      font-weight: 800;
+      font-size: 16px;
+      transition: transform 0.15s, background 0.15s;
+    }
+    .btn-primary:hover { background: #34d399; transform: translateY(-2px); }
+    .btn-secondary {
+      background: rgba(255, 255, 255, 0.05);
+      color: #e2e8f0;
+      text-decoration: none;
+      padding: 15px 26px;
+      border-radius: 12px;
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      font-weight: 600;
+      font-size: 16px;
+      transition: background 0.15s, border-color 0.15s;
+    }
+    .btn-secondary:hover { background: rgba(255, 255, 255, 0.1); border-color: #34d399; }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 18px;
+      text-align: left;
+      margin-bottom: 48px;
+    }
+    .card {
+      background: rgba(18, 22, 28, 0.9);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 16px;
+      padding: 24px;
+    }
+    .card h3 {
+      color: #34d399;
+      font-size: 16px;
+      margin-bottom: 8px;
+    }
+    .card p {
+      color: #94a3b8;
+      font-size: 14px;
+      line-height: 1.55;
+    }
+    footer {
+      color: #475569;
+      font-size: 13px;
+      margin-top: auto;
+      padding: 24px;
+    }
+    footer a { color: #94a3b8; text-decoration: none; }
+    footer a:hover { color: #34d399; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="badge">Windows 10 / 11 (64-bit) • v1.0.0</div>
+    <h1>WOOQ</h1>
+    <p class="subtitle">
+      Oyunlarda, videolarda ve tüm Windows pencerelerinde anlık ekran altyazısı okuma (OCR) ve çoklu dil çeviri aracı.
+    </p>
+    <div class="actions">
+      <a class="btn-primary" href="https://github.com/Wastiyn/WOOQ/releases/latest/download/WOOQ_Setup.exe">⬇ İndir — WOOQ_Setup.exe</a>
+      <a class="btn-secondary" href="https://github.com/Wastiyn/WOOQ" target="_blank">GitHub Sayfası</a>
+    </div>
+    <div class="grid">
+      <div class="card">
+        <h3>1. Alanı Seç</h3>
+        <p>Ekranda altyazıların çıktığı bölgeyi sürükleyip belirle. Oyun veya video penceresini bölmeden üstte çalışır.</p>
+      </div>
+      <div class="card">
+        <h3>2. Anlık OCR</h3>
+        <p>Yerel OCR motoru ekrandaki metni düşük gecikmeyle okur, pikseller değiştiğinde anında algılar.</p>
+      </div>
+      <div class="card">
+        <h3>3. Canlı Çeviri</h3>
+        <p>Çeviri, seçtiğin dilde ve yazı tipinde ekranın üzerinde şık bir katman olarak anında görünür.</p>
+      </div>
+    </div>
+  </div>
+  <footer>
+    Developed by <a href="https://github.com/Wastiyn" target="_blank">Wastiyn</a> • WOOQ Desktop
+  </footer>
+</body>
+</html>
