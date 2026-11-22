@@ -133,5 +133,5 @@ Switch your game's display mode from Exclusive Fullscreen to <b>Borderless Windo
 ---
 
 <div align="center">
-  <sub>Developed by <b>Wastiyn</b> • Windows 10 / 11. (64-bit)</sub>
+  <sub>Developed by <b>Wastiyn</b> • Windows 10 / 11 (64-bit)</sub>
 </div>
