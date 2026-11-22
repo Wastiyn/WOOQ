@@ -17,7 +17,7 @@
 
 <br>
 
-**[🇹🇷 Türkçe](#-türkçe)** &nbsp;•&nbsp; **[🇬🇧 English](#-english)**
+**[🇹🇷 Türkçe](#-türkçe)** &nbsp;•&nbsp; **[EN English](#-english)**
 
 </div>
 
@@ -48,7 +48,7 @@
 
 ---
 
-## 🇬🇧 English
+## EN English
 
 **WOOQ** is a lightweight, fast, and modern desktop application that captures on-screen text in real time from games, videos, or any window and translates it instantly into your preferred language.
 
